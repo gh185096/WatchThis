@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Watch This</string>
+    <string name="request">Request</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="ignore">Ignore</string>
+    <string name="requester">Requester</string>
+    <string name="from">From</string>
+    <string name="page_title">Page_Title</string>
+    <string name="settings">Settings</string>
+</resources>
