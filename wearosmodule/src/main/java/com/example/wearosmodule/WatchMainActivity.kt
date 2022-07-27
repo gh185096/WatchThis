@@ -71,7 +71,7 @@ class WatchRequestsAdapter(options: FirestoreRecyclerOptions<Request>) : Firesto
         with(holder) {
             with (model) {
                 with (binding) {
-                    tvRequest.text = securityFeatures[0].toString()
+                    tvRequest.text = requestMessage
                     //tvRequester.text =
                     btAccept.setOnClickListener {
                         database.document(model.documentId).update("requestState", RequestState.ACCEPTED)

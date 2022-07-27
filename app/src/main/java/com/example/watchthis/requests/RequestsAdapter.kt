@@ -28,7 +28,7 @@ class RequestsAdapter(options: FirestoreRecyclerOptions<Request>) : FirestoreRec
             with(holder) {
                 with (model) {
                     with (binding) {
-                        tvRequest.text = securityFeatures[0].toString()
+                        tvRequest.text = requestMessage
                         btAccept.setOnClickListener {
                             Toast.makeText(holder.binding.root.context, model.documentId, Toast.LENGTH_SHORT).show()
                             database.document(model.documentId).update("requestState", RequestState.ACCEPTED)
