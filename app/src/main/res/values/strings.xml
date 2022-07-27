@@ -8,4 +8,7 @@
     <string name="from">From</string>
     <string name="page_title">Page_Title</string>
     <string name="settings">Settings</string>
+    <string name="enter_pin_to_save">Enter PIN to save:</string>
+    <string name="save">Save</string>
+    <string name="current_pin">Current PIN:</string>
 </resources>

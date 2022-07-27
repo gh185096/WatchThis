@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/spacing_sm"
-    android:background="@drawable/request_list_item_background">
+    android:layout_margin="@dimen/spacing_sm">
 
     <TextView
         android:id="@+id/tv_request"
@@ -38,19 +37,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/bt_accept"
         app:layout_constraintTop_toBottomOf="@id/tv_request" />
-<!--
-
-    <Button
-        android:id="@+id/bt_ignore"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/spacing_xs"
-        android:layout_marginBottom="@dimen/spacing_xs"
-        android:text="@string/ignore"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/buttons_guideline"
-        app:layout_constraintTop_toBottomOf="@id/bt_accept"/>
--->
-
 </androidx.constraintlayout.widget.ConstraintLayout>

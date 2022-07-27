@@ -1,4 +1,4 @@
-package com.example.watchthis.objects
+package com.example.wearosmodule.objects
 
 data class Request (var documentId: String,
                     var requestMessage: String,

@@ -15,11 +15,10 @@
          app:destination="@id/settingsFragment" />
    </fragment>
 
-
    <fragment
        android:id="@+id/settingsFragment"
-       android:name="com.example.watchthis.requests.RequestsFragment"
-       android:label="fragment_requests"
-       tools:layout="@layout/fragment_requests" />
+       android:name="com.example.watchthis.settings.SettingsFragment"
+       android:label="fragment_settings"
+       tools:layout="@layout/fragment_settings" />
 
 </navigation>

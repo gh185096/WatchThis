@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "917920697099",
+    "firebase_url": "https://watch-this-357418-default-rtdb.firebaseio.com",
+    "project_id": "watch-this-357418",
+    "storage_bucket": "watch-this-357418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917920697099:android:f17aaba6ebf98751a5700e",
+        "android_client_info": {
+          "package_name": "com.example.watchthis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917920697099-ghpnv1fe94iosohai3kadij2816raoeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiAvaVapNWDIactvAE7omnST5FGOIrU0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917920697099-ghpnv1fe94iosohai3kadij2816raoeb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917920697099-06uume7dfohrdfn4oimvfshrk8ga35p9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ncr.alohacloud.WatchThis"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917920697099:android:b49ac17df20bb7a0a5700e",
+        "android_client_info": {
+          "package_name": "com.ncr.silverpro.restaurant.commonui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917920697099-ghpnv1fe94iosohai3kadij2816raoeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiAvaVapNWDIactvAE7omnST5FGOIrU0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917920697099-ghpnv1fe94iosohai3kadij2816raoeb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917920697099-06uume7dfohrdfn4oimvfshrk8ga35p9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ncr.alohacloud.WatchThis"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,14 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.watchthis.databinding.FragmentSettingsBinding
-import com.example.watchthis.requests.RequestsAdapter
-import com.example.watchthis.requests.RequestsViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SettingsFragment : Fragment() {
     private lateinit var binding: FragmentSettingsBinding
-    //private val requestsViewModel: RequestsViewModel by viewModels()
+    private val settingsViewModel: SettingsViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,6 +25,19 @@ class SettingsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        settingsViewModel.currentPIN.observe(viewLifecycleOwner) { currentPIN ->
+            binding.tvCurrentPin.text = "Current PIN: $currentPIN"
+        }
+
+        with(binding) {
+            btSave.setOnClickListener {
+                val newPIN = etManagerPin.editText?.text.toString()
+                if (newPIN.isNotBlank() && newPIN.length >= 4) {
+                    settingsViewModel.updatePIN(newPIN)
+                }
+            }
+        }
 
     }
 

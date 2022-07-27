@@ -4,12 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/request_list_item_background.xml" value="0.2375" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18993225097656252" />
         <entry key="app/src/main/res/layout/fragment_requests.xml" value="0.23644256591796878" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.23229166666666667" />
         <entry key="app/src/main/res/layout/fragment_setttings.xml" value="0.23125" />
         <entry key="app/src/main/res/layout/requests_list_item.xml" value="0.2299072265625" />
         <entry key="app/src/main/res/layout/toolbar.xml" value="0.23229166666666667" />
         <entry key="app/src/main/res/menu/menu_toolbar.xml" value="0.23229166666666667" />
+        <entry key="wearosmodule/src/main/res/layout/activity_watch_main.xml" value="0.6221022013525606" />
+        <entry key="wearosmodule/src/main/res/layout/fragment_watch_request.xml" value="0.41841004184100417" />
+        <entry key="wearosmodule/src/main/res/layout/fragment_watch_requests.xml" value="0.41841004184100417" />
+        <entry key="wearosmodule/src/main/res/layout/requests_list_item.xml" value="0.950836820083682" />
       </map>
     </option>
   </component>
